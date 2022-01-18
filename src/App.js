@@ -35,7 +35,7 @@ const App = () => {
   <>
     <h1>Harrison's Page!</h1>
     <p>Hello! Im using React</p>
-    {users.map(users => <usersCard user={user} />)}
+    {users.map(users => <usersCard users={users} />)}
   </>
   );
 }
